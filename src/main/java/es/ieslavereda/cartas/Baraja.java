@@ -50,7 +50,6 @@ public class Baraja {
         return cartaDevolver;
     }
 
-
     public Carta getFirstCard(){
         if (cartas.length == 0)
             return null;
@@ -62,8 +61,6 @@ public class Baraja {
         cartas = aux;
         return cartaDevolver;
     }
-
-
 
     @Override
     public String toString() {

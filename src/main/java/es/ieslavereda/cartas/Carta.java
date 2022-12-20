@@ -19,7 +19,7 @@ public class Carta {
 
     @Override
     public String toString() {
-        return palo + " " + numero;
+        return palo + "" + numero + " ";
     }
 }
 
